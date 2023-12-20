@@ -37,7 +37,22 @@ APC_kaggle_videogames
 │  │  ├─ 22_correlations_after_preprocessing_full.png
 │  │  └─ correlation_matrix_after_preprocessing.csv
 │  ├─ 3_Metric_selection
+│  │  ├─ 30_filter_data.txt
+│  │  └─ 31_last_correlation.png
 │  └─ 4_ModelSelection_and_Crossvalidation
+│     ├─ 40_linear_regressions.txt
+│     ├─ 40_linear_regression_plot.png
+│     ├─ 41_ABR_regression_results.png
+│     ├─ 41_DTR_regression_results.png
+│     ├─ 41_GBR_regression_results.png
+│     ├─ 41_LR_regression_results.png
+│     ├─ 41_regression_results.txt
+│     ├─ 41_RFR_regression_results.png
+│     ├─ 41_XGBR_regression_results.png
+│     ├─ 42_GBR_results.txt
+│     ├─ 44_GBR_predictions_train.png
+│     ├─ 44_GBR_predictions_train_critic.png
+│     └─ 45_GBR_predictions_train_user.png
 └─ scripts
    ├─ 1_EDA
    │  ├─ 10_dataset_analysis.py
@@ -46,12 +61,17 @@ APC_kaggle_videogames
    ├─ 2_Preprocessing
    │  ├─ 20_prepare_datasets.py
    │  ├─ 21_NaNs_and_Encoding.py
-   │  ├─ 22_correlations_after_preprocessing.py
-   │  └─ 22_Normalize_scores_to_10.py
+   │  ├─ 22_Normalize_scores_to_10.py
+   │  └─ 23_correlations_after_preprocessing.py
    ├─ 3_Metric_selection
    │  ├─ 30_filter_data.py
    │  └─ 31_last_correlation.py
-   └─ 4_ModelSelection_and_Crossvalidation
-      └─ 40_regression_evaluation.py
+   ├─ 4_ModelSelection_and_Crossvalidation
+   │  ├─ 40_linear_regression.py
+   │  ├─ 41_regression_evaluation.py
+   │  ├─ 42_GBR_adjustments.py
+   │  └─ 43_GBR_regression.py
+   └─ 5_Final_analysis
+      └─ 50_final_analysis.py
 
 ```

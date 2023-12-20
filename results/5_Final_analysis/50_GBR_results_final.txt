@@ -1,0 +1,7 @@
+Results for Critic_Score (Train):
+Mean Squared Error (Train - Critic): 1.0712936417291654
+R-squared (Train - Critic): 0.4419074896542863
+
+Results for User_Score (Train):
+Mean Squared Error (Train - User): 1.5080630979356553
+R-squared (Train - User): 0.2764926995359177
