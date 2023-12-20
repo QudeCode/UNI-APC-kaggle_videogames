@@ -31,22 +31,27 @@ APC_kaggle_videogames
 │  │  ├─ 11_critics_balance_analysis.png
 │  │  ├─ 12_user_count_balance_high.png
 │  │  └─ 12_user_count_balance_low.png
-│  └─ 2_Preprocessing
-│     ├─ 20_initialization.txt
-│     ├─ 21_NaNs_and_Encoding.txt
-│     ├─ 22_correlations_after_preprocessing_full.png
-│     ├─ 23_filter_data.txt
-│     └─ 24_last_correlation.png
+│  ├─ 2_Preprocessing
+│  │  ├─ 20_initialization.txt
+│  │  ├─ 21_NaNs_and_Encoding.txt
+│  │  ├─ 22_correlations_after_preprocessing_full.png
+│  │  └─ correlation_matrix_after_preprocessing.csv
+│  ├─ 3_Metric_selection
+│  └─ 4_ModelSelection_and_Crossvalidation
 └─ scripts
    ├─ 1_EDA
    │  ├─ 10_dataset_analysis.py
    │  ├─ 11_critics_analysis.py
    │  └─ 12_user_count_balance.py
-   └─ 2_Preprocessing
-      ├─ 20_prepare_datasets.py
-      ├─ 21_NaNs_and_Encoding.py
-      ├─ 22_correlations_after_preprocessing.py
-      ├─ 23_filter_data.py
-      └─ 24_last_correlation.py
+   ├─ 2_Preprocessing
+   │  ├─ 20_prepare_datasets.py
+   │  ├─ 21_NaNs_and_Encoding.py
+   │  ├─ 22_correlations_after_preprocessing.py
+   │  └─ 22_Normalize_scores_to_10.py
+   ├─ 3_Metric_selection
+   │  ├─ 30_filter_data.py
+   │  └─ 31_last_correlation.py
+   └─ 4_ModelSelection_and_Crossvalidation
+      └─ 40_regression_evaluation.py
 
 ```

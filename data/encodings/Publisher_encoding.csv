@@ -1,547 +1,240 @@
 Original,id_Publisher
-THQ,1
-Konami Digital Entertainment,2
-Namco Bandai Games,3
-WayForward Technologies,4
-Electronic Arts,5
-Compile,6
-Midway Games,7
-Activision,8
-Sony Computer Entertainment,9
-Atlus,10
-Microsoft Game Studios,11
-D3Publisher,12
-MC2 Entertainment,13
-Unknown,14
-Nintendo,15
-Nippon Ichi Software,16
-SNK Playmore,17
-Codemasters,18
-Sega,19
-505 Games,20
+Namco Bandai Games,1
+Electronic Arts,2
+Activision,3
+Atlus,4
+D3Publisher,5
+MC2 Entertainment,6
+Nippon Ichi Software,7
+Nintendo,8
+Codemasters,9
+505 Games,10
+Eidos Interactive,11
+Midas Interactive Entertainment,12
+Take-Two Interactive,13
+Sony Computer Entertainment,14
+Nordic Games,15
+Ubisoft,16
+Acclaim Entertainment,17
+LucasArts,18
+Vivendi Games,19
+Disney Interactive Studios,20
 Capcom,21
-Eidos Interactive,22
-Game Factory,23
-Midas Interactive Entertainment,24
-Take-Two Interactive,25
-Tecmo Koei,26
-From Software,27
-Nordic Games,28
-Ubisoft,29
-Tomy Corporation,30
-Zushi Games,31
-Acclaim Entertainment,32
-Spike,33
-Nihon Falcom Corporation,34
-Playlogic Game Factory,35
-Gust,36
-Datam Polystar,37
-LucasArts,38
-Vivendi Games,39
-Disney Interactive Studios,40
-Rising Star Games,41
-Tommo,42
-Banpresto,43
-Marvelous Interactive,44
-Atari,45
-Square EA,46
-Coconuts Japan,47
-MTV Games,48
-Infogrames,49
-Xplosiv,50
-SCi,51
-Majesco Entertainment,52
-Kalypso Media,53
-Astragon,54
-Indie Games,55
-Warner Bros. Interactive Entertainment,56
-Empire Interactive,57
-Idea Factory,58
-King Records,59
-CokeM Interactive,60
-Enix Corporation,61
-Interplay,62
-Gamecock,63
-Success,64
-Square Enix,65
-Kadokawa Shoten,66
-Universal Interactive,67
-Rondomedia,68
-Telegames,69
-BMG Interactive Entertainment,70
-T&E Soft,71
-FuRyu,72
-Deep Silver,73
-Compile Heart,74
-989 Studios,75
-Data East,76
-Virgin Interactive,77
-Little Orbit,78
-Magix,79
-Valcon Games,80
-Natsume,81
-Alawar Entertainment,82
-Avanquest,83
-Agetec,84
-Ecole,85
-1C Company,86
-Creative Core,87
-SquareSoft,88
-Ackkstudios,89
-20th Century Fox Video Games,90
-Bethesda Softworks,91
-5pb,92
-Falcom Corporation,93
-ValuSoft,94
-EON Digital Entertainment,95
-Rocket Company,96
-Gremlin Interactive Ltd,97
-DreamCatcher Interactive,98
-Telltale Games,99
-Sony Computer Entertainment Europe,100
-Hackberry,101
-Prototype,102
-City Interactive,103
-NEC Interchannel,104
-Mindscape,105
-XS Games,106
-Nobilis,107
-Zoo Digital Publishing,108
-Bigben Interactive,109
-Funbox Media,110
-Pinnacle,111
-O-Games,112
-Global Star,113
-Views,114
-Cave,115
-Neko Entertainment,116
-Ocean,117
-Black Bean Games,118
-Alchemist,119
-Metro 3D,120
-Essential Games,121
-Level 5,122
-Rebellion Developments,123
-NCSoft,124
-Broccoli,125
-Vir2L Studios,126
-Swing! Entertainment,127
-Ignition Entertainment,128
-Xseed Games,129
-Milestone S.r.l.,130
-RTL,131
-Slightly Mad Studios,132
-Arc System Works,133
-PQube,134
-Foreign Media Games,135
-Yamasa Entertainment,136
-IE Institute,137
-Avanquest Software,138
-Kadokawa Games,139
-Imagic,140
-Aqua Plus,141
-System 3,142
-Paon,143
-Oxygen Interactive,144
-BAM! Entertainment,145
-Idea Factory International,146
-JoWood Productions,147
-Aria,148
-Fox Interactive,149
-Asmik Corp,150
-Aspyr,151
-DSI Games,152
-Reef Entertainment,153
-imageepoch Inc.,154
-Taito,155
-Trion Worlds,156
-Acquire,157
-Agatsuma Entertainment,158
-NewKidCo,159
-Kaga Create,160
-Parker Bros.,161
-Blast! Entertainment Ltd,162
-Crave Entertainment,163
-Mastertronic,164
-Asgard,165
-Activision Value,166
-Number None,167
-Imagineer,168
-EA Games,169
-7G//AMES,170
-Big Ben Interactive,171
-Hudson Soft,172
-Paradox Interactive,173
-KID,174
-Microids,175
-Milestone S.r.l,176
-Takara Tomy,177
-3DO,178
-Mercury Games,179
-Accolade,180
-"Destination Software, Inc",181
-Kemco,182
-SSI,183
-Myelin Media,184
-Electronic Arts Victor,185
-CyberFront,186
-Starfish,187
-Hudson Entertainment,188
-Ubisoft Annecy,189
-Playmore,190
-Mattel Interactive,191
-Sting,192
-Zoo Games,193
-Square,194
-Nippon Columbia,195
-Griffin International,196
-Media Works,197
-GT Interactive,198
-Yeti,199
-DHM Interactive,200
-Ertain,201
-Irem Software Engineering,202
-Valve,203
-CPG Products,204
-Funsta,205
-Sammy Corporation,206
-Telstar,207
-ASCII Media Works,208
-Phenomedia,209
-Hasbro Interactive,210
-responDESIGN,211
-Evolution Games,212
-Focus Multimedia,213
-PlayV,214
-Marvelous Entertainment,215
-Princess Soft,216
-Team17 Software,217
-GameMill Entertainment,218
-GSP,219
-ArtDink,220
-bitComposer Games,221
-Performance Designed Products,222
-Shogakukan,223
-Seta Corporation,224
-Evolved Games,225
-Focus Home Interactive,226
-HAL Laboratory,227
-UFO Interactive,228
-Mastiff,229
-Locus,230
-SouthPeak Games,231
-Genki,232
-PopCap Games,233
-ASCII Entertainment,234
-Media Rings,235
-dramatic create,236
-Edia,237
-Human Entertainment,238
-Marvel Entertainment,239
-Headup Games,240
-Graffiti,241
-Sunrise Interactive,242
-Destineer,243
-ITT Family Games,244
-Vatical Entertainment,245
-Ghostlight,246
-MTO,247
-Enterbrain,248
-Mud Duck Productions,249
-Licensed 4U,250
-Stainless Games,251
-SNK,252
-Knowledge Adventure,253
-Berkeley,254
-DTP Entertainment,255
-Gathering of Developers,256
-FunSoft,257
-Avalon Interactive,258
-Mentor Interactive,259
-Red Storm Entertainment,260
-Conspiracy Entertainment,261
-The Adventure Company,262
-Minato Station,263
-Coleco,264
-Psygnosis,265
-NovaLogic,266
-Hip Interactive,267
-Touchstone,268
-Global A Entertainment,269
-Misawa,270
-ChunSoft,271
-System 3 Arcade Software,272
-Quinrose,273
-Rebellion,274
-TopWare Interactive,275
-Daedalic,276
-Laguna,277
-Yacht Club Games,278
-TDK Mediactive,279
-Sony Computer Entertainment America,280
-Inti Creates,281
-Games Workshop,282
-Asylum Entertainment,283
-P2 Games,284
-Storm City Games,285
-Brash Entertainment,286
-Extreme Entertainment Group,287
-Seventh Chord,288
-Play It,289
-Popcorn Arcade,290
-Zenrin,291
-KSS,292
-Jaleco,293
-GungHo,294
-Syscom,295
-Takara,296
-Dusenberry Martin Racing,297
-PopTop Software,298
-Mystique,299
-GN Software,300
-American Softworks,301
-Scholastic Inc.,302
-Game Arts,303
-O3 Entertainment,304
-Iceberg Interactive,305
-Crystal Dynamics,306
-Excalibur Publishing,307
-Easy Interactive,308
-Screenlife,309
-Comfort,310
-FuRyu Corporation,311
-Pack-In-Video,312
-Russel,313
-Gearbox Software,314
-Ultravision,315
-Sunsoft,316
-NCS,317
-Tetris Online,318
-Interchannel,319
-CCP,320
-AQ Interactive,321
-Introversion Software,322
-Marvelous Games,323
-Gotham Games,324
-Media Entertainment,325
-Warp,326
-Karin Entertainment,327
-Flashpoint Games,328
-Warashi,329
-Cloud Imperium Games Corporation,330
-Microprose,331
-Happinet,332
-TDK Core,333
-Michaelsoft,334
-id Software,335
-Aruze Corp,336
-Jester Interactive,337
-Jorudan,338
-Paon Corporation,339
-GOA,340
-On Demand,341
-Koch Media,342
-Sweets,343
-UEP Systems,344
-Riverhillsoft,345
-Masque Publishing,346
-Victor Interactive,347
-ESP,348
-Nichibutsu,349
-Daito,350
-TGL,351
-Slitherine Software,352
-Devolver Digital,353
-10TACLE Studios,354
-Aques,355
-Aksys Games,356
-Panther Software,357
-Arika,358
-Encore,359
-LEGO Media,360
-Black Label Games,361
-Groove Games,362
-Gakken,363
-Titus,364
-Kids Station,365
-Pony Canyon,366
-Mojang,367
-CDV Software Entertainment,368
-Data Age,369
-Ascaron Entertainment GmbH,370
-Time Warner Interactive,371
-Core Design Ltd.,372
-Tripwire Interactive,373
-CTO SpA,374
-U.S. Gold,375
-Harmonix Music Systems,376
-Pioneer LDC,377
-NEC,378
-Tigervision,379
-Strategy First,380
-Sony Online Entertainment,381
-Arena Entertainment,382
-Kokopeli Digital Studios,383
-Abylight,384
-Daedalic Entertainment,385
-Dorart,386
-Phoenix Games,387
-Genterprise,388
-Fuji,389
-Aerosoft,390
-Home Entertainment Suppliers,391
-Nexon,392
-JVC,393
-Graphsim Entertainment,394
-Square Enix ,395
-Navarre Corp,396
-Sonnet,397
-Rage Software,398
-Interplay Productions,399
-Moss,400
-TOHO,401
-Mumbo Jumbo,402
-Universal Gamex,403
-Data Design Interactive,404
-Visco,405
-Revolution (Japan),406
-Micro Cabin,407
-Gainax Network Systems,408
-NDA Productions,409
-Legacy Interactive,410
-SPS,411
-Mirai Shounen,412
-Tru Blu Entertainment,413
-System Soft,414
-Crimson Cow,415
-Milestone,416
-Big Fish Games,417
-Her Interactive,418
-Video System,419
-Vic Tokai,420
-Detn8 Games,421
-DreamWorks Interactive,422
-Palcom,423
-Nippon Telenet,424
-Bomb,425
-49Games,426
-Nippon Amuse,427
-Asmik Ace Entertainment,428
-Hamster Corporation,429
-PM Studios,430
-Hect,431
-Wizard Video Games,432
-New World Computing,433
-White Park Bay Software,434
-Valve Software,435
-Lighthouse Interactive,436
-Experience Inc.,437
-Plenty,438
-RED Entertainment,439
-Yuke's,440
-Giga,441
-Sony Music Entertainment,442
-Media Factory,443
-HuneX,444
-Insomniac Games,445
-Jack of All Games,446
-Pacific Century Cyber Works,447
-"mixi, Inc",448
-Interchannel-Holon,449
-TalonSoft,450
-Wanadoo,451
-Alvion,452
-Funcom,453
-Nitroplus,454
-Paradox Development,455
-Yumedia,456
-Quintet,457
-Kando Games,458
-Culture Brain,459
-989 Sports,460
-Alternative Software,461
-Maxis,462
-Fields,463
-TYO,464
-Phantagram,465
-Benesse,466
-Elite,467
-Sold Out,468
-Tivola,469
-Tradewest,470
-ASK,471
-BPS,472
-Angel Studios,473
-RedOctane,474
-iWin,475
-Glams,476
-Magical Company,477
-Athena,478
-Epoch,479
-Sears,480
-BushiRoad,481
-Technos Japan Corporation,482
-Westwood Studios,483
-Hearty Robin,484
-Mamba Games,485
-Grand Prix Games,486
-DigiCube,487
-Gaga,488
-Crytek,489
-HMH Interactive,490
-General Entertainment,491
-CBS Electronics,492
-Image Epoch,493
-Vap,494
-Saurus,495
-Game Life,496
-NetRevo,497
-Max Five,498
-TechnoSoft,499
-Flight-Plan,500
-Revolution Software,501
-Red Orb,502
-Quelle,503
-Piacci,504
-LSP Games,505
-ASC Games,506
-Xing Entertainment,507
-Merscom LLC,508
-Playmates,509
-Xicat Interactive,510
-Enjoy Gaming ltd.,511
-Culture Publishers,512
-Mycom,513
-Simon & Schuster Interactive,514
-Liquid Games,515
-Wargaming.net,516
-Just Flight,517
-Altron,518
-Ascaron Entertainment,519
-Nordcurrent,520
-Kool Kizz,521
-Otomate,522
-New,523
-Imageworks,524
-Fortyfive,525
-Men-A-Vision,526
-Origin Systems,527
-The Learning Company,528
-Giza10,529
-Epic Games,530
-Kamui,531
-Bohemia Interactive,532
-Summitsoft,533
-inXile Entertainment,534
-Cygames,535
-Mad Catz,536
-MLB.com,537
-Illusion Softworks,538
-GameTek,539
-Starpath Corp.,540
-Pow,541
-2D Boy,542
-Imax,543
-G.Rev,544
-Axela,545
-Lexicon Entertainment,546
+Marvelous Interactive,22
+Square EA,23
+THQ,24
+Midway Games,25
+Atari,26
+MTV Games,27
+Sega,28
+SCi,29
+Kalypso Media,30
+Microsoft Game Studios,31
+Indie Games,32
+Konami Digital Entertainment,33
+Interplay,34
+Gamecock,35
+Square Enix,36
+Warner Bros. Interactive Entertainment,37
+Rising Star Games,38
+Infogrames,39
+Deep Silver,40
+Little Orbit,41
+Agetec,42
+1C Company,43
+SquareSoft,44
+Tecmo Koei,45
+Universal Interactive,46
+Telltale Games,47
+Empire Interactive,48
+Sony Computer Entertainment Europe,49
+XS Games,50
+Black Bean Games,51
+Metro 3D,52
+Xseed Games,53
+Milestone S.r.l.,54
+Slightly Mad Studios,55
+Majesco Entertainment,56
+NCSoft,57
+Unknown,58
+System 3,59
+Global Star,60
+Playlogic Game Factory,61
+Zoo Digital Publishing,62
+Idea Factory International,63
+Virgin Interactive,64
+Tomy Corporation,65
+BAM! Entertainment,66
+Reef Entertainment,67
+Ignition Entertainment,68
+Trion Worlds,69
+Agatsuma Entertainment,70
+Bethesda Softworks,71
+Avanquest,72
+Number None,73
+EA Games,74
+Compile Heart,75
+Spike,76
+Milestone S.r.l,77
+Activision Value,78
+Takara Tomy,79
+3DO,80
+Oxygen Interactive,81
+Swing! Entertainment,82
+PQube,83
+Valve,84
+Marvelous Entertainment,85
+Team17 Software,86
+Ubisoft Annecy,87
+SouthPeak Games,88
+Enix Corporation,89
+PopCap Games,90
+Focus Home Interactive,91
+DreamCatcher Interactive,92
+Ghostlight,93
+Paradox Interactive,94
+Stainless Games,95
+Microids,96
+Ackkstudios,97
+Gathering of Developers,98
+Avalon Interactive,99
+Gust,100
+NovaLogic,101
+Hip Interactive,102
+Touchstone,103
+Taito,104
+FuRyu,105
+Rebellion,106
+Yacht Club Games,107
+Sony Computer Entertainment America,108
+NewKidCo,109
+Game Factory,110
+Acquire,111
+Falcom Corporation,112
+Crave Entertainment,113
+Dusenberry Martin Racing,114
+Idea Factory,115
+Jaleco,116
+Screenlife,117
+TDK Mediactive,118
+Destineer,119
+Genki,120
+Gearbox Software,121
+Success,122
+Tetris Online,123
+GungHo,124
+From Software,125
+Zushi Games,126
+CCP,127
+AQ Interactive,128
+Kemco,129
+Aspyr,130
+DTP Entertainment,131
+Global A Entertainment,132
+id Software,133
+Jester Interactive,134
+GOA,135
+Nobilis,136
+10TACLE Studios,137
+Zoo Games,138
+Aksys Games,139
+Human Entertainment,140
+Gotham Games,141
+Black Label Games,142
+JoWood Productions,143
+ASCII Entertainment,144
+Play It,145
+Arc System Works,146
+Graffiti,147
+Ascaron Entertainment GmbH,148
+Media Rings,149
+Tripwire Interactive,150
+GT Interactive,151
+RTL,152
+Harmonix Music Systems,153
+ESP,154
+Strategy First,155
+Natsume,156
+Koch Media,157
+Titus,158
+Introversion Software,159
+Groove Games,160
+System 3 Arcade Software,161
+Brash Entertainment,162
+Graphsim Entertainment,163
+Square Enix ,164
+Evolved Games,165
+Navarre Corp,166
+Mastertronic,167
+Rage Software,168
+Aqua Plus,169
+Visco,170
+FuRyu Corporation,171
+NDA Productions,172
+The Adventure Company,173
+Hasbro Interactive,174
+Mastiff,175
+Sony Online Entertainment,176
+Sting,177
+Scholastic Inc.,178
+PM Studios,179
+White Park Bay Software,180
+Valve Software,181
+Lighthouse Interactive,182
+City Interactive,183
+Insomniac Games,184
+Pacific Century Cyber Works,185
+Banpresto,186
+Mercury Games,187
+TalonSoft,188
+Funcom,189
+Iceberg Interactive,190
+Enterbrain,191
+Maxis,192
+Phantagram,193
+Rondomedia,194
+Psygnosis,195
+Sold Out,196
+Hudson Entertainment,197
+RedOctane,198
+"Destination Software, Inc",199
+Xplosiv,200
+Wanadoo,201
+Nihon Falcom Corporation,202
+Russel,203
+bitComposer Games,204
+Valcon Games,205
+Funbox Media,206
+HMH Interactive,207
+Max Five,208
+Hudson Soft,209
+Revolution Software,210
+Irem Software Engineering,211
+DHM Interactive,212
+Home Entertainment Suppliers,213
+Sammy Corporation,214
+Pinnacle,215
+5pb,216
+Wargaming.net,217
+Just Flight,218
+Mindscape,219
+Crimson Cow,220
+O3 Entertainment,221
+Kool Kizz,222
+Fox Interactive,223
+Bigben Interactive,224
+Tru Blu Entertainment,225
+Cloud Imperium Games Corporation,226
+Level 5,227
+Myelin Media,228
+Bohemia Interactive,229
+inXile Entertainment,230
+Moss,231
+Rebellion Developments,232
+Mad Catz,233
+Illusion Softworks,234
+Telegames,235
+Popcorn Arcade,236
+Encore,237
+2D Boy,238
+Conspiracy Entertainment,239

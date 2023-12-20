@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Rutas de los archivos de entrada y salida
 input_filtered_path = 'data/train_DEF.csv'
-correlation_fig_path = 'results/2_Preprocessing/24_last_correlation.png'
+correlation_fig_path = 'results/3_Metric_selection/31_last_correlation.png'
 
 # Cargar conjunto de datos filtrado
 filtered_data = pd.read_csv(input_filtered_path)

@@ -7,9 +7,6 @@ output_train_path = 'data/train_tracted.csv'
 results_file_path = 'results/2_Preprocessing/21_NaNs_and_Encoding.txt'
 encodings_dir = 'data/encodings'
 
-# Crear el directorio de encodings si no existe
-os.makedirs(encodings_dir, exist_ok=True)
-
 # Cargar conjunto de datos de entrenamiento
 train_data = pd.read_csv(input_train_path)
 
@@ -20,11 +17,26 @@ train_data = train_data.drop(columns=['Name'])
 train_data['User_Score'] = pd.to_numeric(
     train_data['User_Score'], errors='coerce')
 
-# Contar valores nulos por columna antes del tratamiento
-null_counts_before = train_data.isnull().sum()
+# Contar valores nulos por fila antes del tratamiento
+null_counts_per_row_before = train_data.isnull().sum(axis=1)
 
-# Reemplazar valores nulos con "-1" en todas las columnas
-train_data = train_data.fillna(-1)
+# Contar el total de filas con al menos un NaN antes del tratamiento
+total_rows_with_nans_before = (null_counts_per_row_before > 0).sum()
+
+# Obtener la muestra total (número total de filas antes del tratamiento)
+total_rows_before = len(train_data)
+
+# Eliminar filas con al menos un NaN
+train_data = train_data.dropna()
+
+# Obtener la muestra total (número total de filas después del tratamiento)
+total_rows_after = len(train_data)
+
+# Contar valores nulos por fila después del tratamiento
+null_counts_per_row_after = train_data.isnull().sum(axis=1)
+
+# Contar el total de filas con al menos un NaN después del tratamiento
+total_rows_with_nans_after = (null_counts_per_row_after > 0).sum()
 
 # Crear diccionarios para el encoding de cada columna categórica
 encoding_dicts = {}
@@ -63,18 +75,17 @@ train_data.to_csv(output_train_path, index=False)
 
 # Crear mensaje de resultados
 result_message = (
-    "1. Eliminación de la columna 'Name':\n"
+    "1. Eliminacion de la columna 'Name':\n"
     "   - Se ha eliminado la columna 'Name'.\n\n"
-    "2. Conversión de 'tbd' a NaN en la columna 'User_Score':\n"
+    "2. Conversion de 'tbd' a NaN en la columna 'User_Score':\n"
     "   - Se han convertido los valores 'tbd' a NaN en la columna 'User_Score'.\n\n"
     "3. Tratamiento de valores nulos:\n"
-    f"   - Se han reemplazado los nulos con '-1' en todas las columnas.\n\n"
-    "4. Asignacion de valores numericos a la columna 'Rating':\n"
-    "   - Se ha asignado un valor numerico a cada posible 'Rating' segun el siguiente mapeo:\n"
-    f"     {rating_mapping}\n\n"
-    f"5. Conteo de valores nulos por columna antes del tratamiento:\n{null_counts_before}\n\n"
-    f"6. Conteo de valores nulos por columna despues del tratamiento:\n{train_data.isnull().sum()}\n\n"
-    "7. Diccionarios de codificación:\n"
+    f"   - Se han eliminado todas las filas que contenian algun NaN:\n\n"
+    f"4. Filas con al menos un NaN antes del tratamiento: {total_rows_with_nans_before}\n"
+    f"    - Numero muy inferior a la muestra total ({total_rows_before})\n\n"
+    f"5. Filas con al menos un NaN después del tratamiento: {total_rows_with_nans_after}\n\n"
+    f"6. Filas restantes en train: {total_rows_after}\n\n"
+    "7. Diccionarios de codificacion:\n"
 )
 
 # Agregar información de diccionarios de codificación al mensaje de resultados
