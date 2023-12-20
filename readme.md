@@ -1,4 +1,3 @@
-
 ```
 APC_kaggle_videogames
 ├─ data
@@ -39,20 +38,25 @@ APC_kaggle_videogames
 │  ├─ 3_Metric_selection
 │  │  ├─ 30_filter_data.txt
 │  │  └─ 31_last_correlation.png
-│  └─ 4_ModelSelection_and_Crossvalidation
-│     ├─ 40_linear_regressions.txt
-│     ├─ 40_linear_regression_plot.png
-│     ├─ 41_ABR_regression_results.png
-│     ├─ 41_DTR_regression_results.png
-│     ├─ 41_GBR_regression_results.png
-│     ├─ 41_LR_regression_results.png
-│     ├─ 41_regression_results.txt
-│     ├─ 41_RFR_regression_results.png
-│     ├─ 41_XGBR_regression_results.png
-│     ├─ 42_GBR_results.txt
-│     ├─ 44_GBR_predictions_train.png
-│     ├─ 44_GBR_predictions_train_critic.png
-│     └─ 45_GBR_predictions_train_user.png
+│  ├─ 4_ModelSelection_and_Crossvalidation
+│  │  ├─ 40_linear_regressions.txt
+│  │  ├─ 40_linear_regression_plot.png
+│  │  ├─ 41_ABR_regression_results.png
+│  │  ├─ 41_DTR_regression_results.png
+│  │  ├─ 41_GBR_regression_results.png
+│  │  ├─ 41_LR_regression_results.png
+│  │  ├─ 41_regression_results.txt
+│  │  ├─ 41_RFR_regression_results.png
+│  │  ├─ 41_XGBR_regression_results.png
+│  │  ├─ 42_GBR_results.txt
+│  │  ├─ 44_GBR_predictions_train.png
+│  │  ├─ 44_GBR_predictions_train_critic.png
+│  │  └─ 45_GBR_predictions_train_user.png
+│  └─ 5_Final_analysis
+│     ├─ 50_GBR_predictions_train_final.png
+│     ├─ 50_GBR_results_final.txt
+│     ├─ 51_GBR_predictions_test_critic.csv
+│     └─ 52_GBR_predictions_test_user.csv
 └─ scripts
    ├─ 1_EDA
    │  ├─ 10_dataset_analysis.py
