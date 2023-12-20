@@ -1,0 +1,36 @@
+Model: LR
+Cross-Validation Scores : [0.12166351 0.09763162 0.1024081  0.14686567 0.14307716]
+Average : 0.1223292111211105
+---------------------------------------
+Mean Squared Error (Critic_Score): 1.6982200748858551
+R-squared (Critic_Score): 0.14456247407640777
+Model: DTR
+Cross-Validation Scores : [-0.41900129 -0.29592498 -0.54668016 -0.34169753 -0.29528183]
+Average : -0.3797171575613571
+---------------------------------------
+Mean Squared Error (Critic_Score): 2.645632998171846
+R-squared (Critic_Score): -0.33267400375658474
+Model: RFR
+Cross-Validation Scores : [0.23764311 0.2431813  0.24443614 0.29534705 0.29490374]
+Average : 0.2631022681834313
+---------------------------------------
+Mean Squared Error (Critic_Score): 1.3518978217255742
+R-squared (Critic_Score): 0.3190139811554461
+Model: XGBR
+Cross-Validation Scores : [0.15490355 0.19075482 0.20952201 0.22617    0.25374139]
+Average : 0.20701835167006016
+---------------------------------------
+Mean Squared Error (Critic_Score): 1.4211058757037192
+R-squared (Critic_Score): 0.28415208819788573
+Model: GBR
+Cross-Validation Scores : [0.28239012 0.28884982 0.27872585 0.33733032 0.32480092]
+Average : 0.3024194058317488
+---------------------------------------
+Mean Squared Error (Critic_Score): 1.3296569679831758
+R-squared (Critic_Score): 0.33021727640627185
+Model: ABR
+Cross-Validation Scores : [0.17690524 0.1510787  0.10363787 0.07695111 0.12131792]
+Average : 0.125978169216601
+---------------------------------------
+Mean Squared Error (Critic_Score): 1.5971648120182116
+R-squared (Critic_Score): 0.19546663268780906

@@ -1,0 +1,2 @@
+1. Eliminación de columnas con correlación baja:
+   - Se han eliminado las columnas ['Platform', 'Year_of_Release', 'Genre', 'Rating'] debido a su baja correlación con las críticas.

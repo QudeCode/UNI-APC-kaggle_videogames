@@ -1,0 +1,5 @@
+Mejores hiperparámetros:
+{'learning_rate': 0.1, 'max_depth': 4, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 100, 'subsample': 0.8}
+
+Mean Squared Error (Test): 1.311110062423709
+R-squared (Test): 0.33955983408766965

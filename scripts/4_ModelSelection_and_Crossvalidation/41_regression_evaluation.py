@@ -11,8 +11,8 @@ from sklearn.impute import SimpleImputer
 
 # Cargar el conjunto de datos
 input_file_path = 'data/train_DEF.csv'
-output_file_path = "results/4_ModelSelection_and_Crossvalidation/40_regression_critic_results.png"
-results_txt_path = "results/4_ModelSelection_and_Crossvalidation/41_regression_results.txt"
+output_dir = "results/4_ModelSelection_and_Crossvalidation/"
+results_txt_path = output_dir + "41_regression_results.txt"
 data = pd.read_csv(input_file_path)
 
 # Seleccionar características y variables objetivo
@@ -51,17 +51,28 @@ with open(results_txt_path, 'w') as f:
         f.write(f"Average : {np.mean(cv_scores)}\n")
         f.write('---------------------------------------\n')
 
-    # Seleccionar y ajustar el mejor modelo para Critic_Score
-    # Puedes seleccionar el modelo con el mejor rendimiento
-    best_model_critic = RandomForestRegressor()
-    best_model_critic.fit(X_train_imputed, y_critic_train)
+        # Seleccionar y ajustar el modelo para Critic_Score
+        model.fit(X_train_imputed, y_critic_train)
 
-    # Realizar predicciones en el conjunto de prueba para Critic_Score
-    y_critic_pred = best_model_critic.predict(X_test_imputed)
+        # Realizar predicciones en el conjunto de prueba para Critic_Score
+        y_critic_pred = model.predict(X_test_imputed)
 
-    # Evaluar el rendimiento del modelo para Critic_Score
-    mse_critic = mean_squared_error(y_critic_test, y_critic_pred)
-    r2_critic = r2_score(y_critic_test, y_critic_pred)
+        # Evaluar el rendimiento del modelo para Critic_Score
+        mse_critic = mean_squared_error(y_critic_test, y_critic_pred)
+        r2_critic = r2_score(y_critic_test, y_critic_pred)
 
-    f.write(f'Mean Squared Error (Critic_Score): {mse_critic}\n')
-    f.write(f'R-squared (Critic_Score): {r2_critic}\n')
+        f.write(f'Mean Squared Error (Critic_Score): {mse_critic}\n')
+        f.write(f'R-squared (Critic_Score): {r2_critic}\n')
+
+        # Crear gráfico y guardarlo
+        plt.scatter(y_critic_test, y_critic_pred)
+        plt.plot([min(y_critic_test), max(y_critic_test)],
+                 [min(y_critic_test), max(y_critic_test)],
+                 linestyle='--', color='red', linewidth=2)
+        plt.xlabel('Critic_Score reales')
+        plt.ylabel('Critic_Score predichos')
+        plt.title(f'Predicciones vs. Critic_Score reales - {model_name}')
+        plt.savefig(output_dir + f"41_{model_name}_regression_results.png")
+        plt.show()
+
+print("Resultados y gráficos generados correctamente.")
